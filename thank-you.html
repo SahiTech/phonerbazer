@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="bn" class="transition-colors duration-300">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PhonerBazar - আপনার অর্ডার সফলভাবে জমা হয়েছে। আমাদের টিম শীঘ্রই আপনার সাথে যোগাযোগ করবে।">
+  <meta name="robots" content="noindex">
+
+  <title>ধন্যবাদ - PhonerBazar</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://phonerbazar.shop/images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Noto Sans Bengali', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 flex items-center justify-center min-h-screen font-sans">
+  <div class="bg-white dark:bg-gray-800 shadow-xl rounded-xl p-10 max-w-lg w-full text-center">
+
+    <!-- Success Icon -->
+    <div class="flex justify-center mb-6">
+      <div class="bg-green-100 text-green-600 rounded-full p-5">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Heading -->
+    <h1 class="text-3xl font-bold text-green-600 mb-2">🎉 ধন্যবাদ!</h1>
+    <p class="text-gray-600 dark:text-gray-300 mb-6">আপনার অর্ডারটি সফলভাবে জমা হয়েছে।</p>
+
+    <!-- Order Details -->
+    <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg text-left p-5 mb-6">
+      <p class="mb-2"><strong>অর্ডার আইডি:</strong> <span id="order-id">লোড হচ্ছে...</span></p>
+      <p class="mb-2"><strong>প্রোডাক্ট:</strong> <span id="product-name">লোড হচ্ছে...</span> (<span id="variant">---</span>)</p>
+      <p class="mb-2"><strong>পরিমাণ:</strong> <span id="quantity">---</span></p>
+      <p><strong>মোট মূল্য:</strong> ৳<span id="order-total">---</span></p>
+    </div>
+
+    <!-- Info -->
+    <p class="text-sm text-gray-500 dark:text-gray-400 mb-1">👉 আমাদের সেলস টিম শীঘ্রই আপনার সাথে যোগাযোগ করবে।</p>
+    <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">👉 অনুগ্রহ করে ফোন কল রিসিভ করার জন্য প্রস্তুত থাকুন।</p>
+
+    <!-- Contact -->
+    <div class="mt-4 text-sm text-gray-600 dark:text-gray-300 space-y-2">
+      📞 <a href="tel:01874002918" class="text-green-600 font-semibold hover:underline">01874-002918</a><br>
+      ✉️ <a href="mailto:phonerbazar.helpline@gmail.com" class="text-green-600 font-semibold hover:underline">support@phonerbazar.shop</a><br>
+      <a href="https://wa.me/8801874002918" target="_blank" rel="noopener noreferrer" class="text-green-600 hover:underline flex justify-center items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.89 11.89 0 0012 .25C5.53.25.25 5.53.25 12c0 2.11.55 4.17 1.61 6.01L.24 23.75l5.91-1.58A11.89 11.89 0 0012 23.75c6.47 0 11.75-5.28 11.75-11.75 0-3.14-1.22-6.09-3.48-8.27z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+
+    <!-- Home Button -->
+    <a href="https://phonerbazar.shop" class="mt-8 inline-block px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition">
+      হোমপেজে ফিরে যান
+    </a>
+  </div>
+
+  <!-- Script -->
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const params = new URLSearchParams(window.location.search);
+
+  const orderId = params.get("order_id") || localStorage.getItem("orderId") || "N/A";
+  const productName = localStorage.getItem("productName") || "Unknown Product";
+  const variant = params.get("variant") || localStorage.getItem("variant") || "N/A";
+  const quantity = params.get("quantity") || localStorage.getItem("quantity") || "1";
+  const totalPrice = params.get("order_total") || localStorage.getItem("totalPrice") || "0";
+
+  document.getElementById("order-id").textContent = orderId;
+  document.getElementById("product-name").textContent = productName;
+  document.getElementById("variant").textContent = variant;
+  document.getElementById("quantity").textContent = quantity;
+  document.getElementById("order-total").textContent = Number(totalPrice).toLocaleString("bn-BD");
+});
+</script>
+</body>
+</html>

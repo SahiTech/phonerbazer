@@ -1,0 +1,98 @@
+# ================================
+# 🌐 Performance Optimization Rules (Final Optimized)
+# For: PhonerBazar.shop
+# ================================
+
+# ================================
+# ⚙️ Compression (Brotli + Gzip Fallback)
+# ================================
+<IfModule mod_brotli.c>
+  BrotliCompressionQuality 6
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css application/javascript application/json application/xml image/svg+xml application/wasm
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json application/xml image/svg+xml application/wasm
+</IfModule>
+
+# ================================
+# ⚡ Browser Caching (1 Year)
+# ================================
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|webp|jpg|jpeg|png|gif|ico|svg|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # HTML files (shorter cache time)
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "max-age=600, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# ================================
+# 🧹 Remove ETag
+# ================================
+FileETag None
+
+# ================================
+# 🛡️ Security Headers
+# ================================
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+  Header always set Cross-Origin-Resource-Policy "same-origin"
+</IfModule>
+
+# ================================
+# 🚀 Leverage browser caching & static asset handling
+# ================================
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 7 days"
+  ExpiresByType text/html "access plus 10 minutes"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# ================================
+# 🔁 Unified Redirect (www → non-www + HTTPS)
+# ================================
+RewriteEngine On
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.phonerbazar\.shop [NC]
+RewriteRule ^(.*)$ https://phonerbazar.shop/$1 [L,R=301]
+
+# ================================
+# 📦 Gzip Fallback (for older browsers)
+# ================================
+AddEncoding gzip .gz
+AddType "text/javascript" .js
+AddType "text/css" .css
+
+# ================================
+# 🧠 Preload Policy for Critical Assets
+# ================================
+<IfModule mod_headers.c>
+  <FilesMatch "\.css$">
+    Header add Link "</%{REQUEST_URI}>; rel=preload; as=style"
+  </FilesMatch>
+  <FilesMatch "\.js$">
+    Header add Link "</%{REQUEST_URI}>; rel=preload; as=script"
+  </FilesMatch>
+  <FilesMatch "\.woff2$">
+    Header add Link "</%{REQUEST_URI}>; rel=preload; as=font; type=font/woff2; crossorigin"
+  </FilesMatch>
+</IfModule>
+
+# ================================
+# ✅ End of Configuration
+# ================================

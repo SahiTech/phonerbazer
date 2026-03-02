@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Nokia 3310 ফোনটি বাংলাদেশে মাত্র ৳২,৫৯৯-এ কিনুন! দীর্ঘস্থায়ী ব্যাটারি, ক্লাসিক ডিজাইন।">
+  <meta name="keywords" content="Nokia 3310, PhonerBazar, online mobile shop, মোবাইল ফোন, feature phone, Bangladesh mobile price">
+  <meta name="product-name" content="Nokia 3310">
+  <meta name="product-id" content="nokia-3310">
+  <meta name="product-price" content="2599">
+  <meta name="currency" content="BDT">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PhonerBazar">
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta property="og:title" content="Nokia 3310 - PhonerBazar">
+  <meta property="og:description" content="Nokia 3310 ফোনটি বাংলাদেশে মাত্র ৳২,৫৯৯-এ কিনুন। দীর্ঘস্থায়ী ব্যাটারি, ক্লাসিক ডিজাইন।">
+  <meta property="og:image" content="/images/nokia-3310-main-480w.webp">
+  <meta property="og:url" content="https://phonerbazar.shop/products/nokia-3310.html">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- DNS Prefetch and Preconnect -->
+  <link rel="dns-prefetch" href="https://phonerbazar.shop">
+  <link rel="preconnect" href="https://phonerbazar.shop" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+  <!-- Preload Google Fonts CSS -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap">
+  </noscript>
+
+  <!-- Preload and Load CSS -->
+  <link rel="preload" href="../styles.css" as="style">
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Preload Images -->
+  <link rel="preload" as="image" href="/images/nokia-3310-main-480w.webp" imagesrcset="/images/nokia-3310-main-320w.webp 320w, /images/nokia-3310-main-480w.webp 480w, /images/nokia-3310-main-768w.webp 768w" imagesizes="(max-width: 480px) 100vw, (max-width: 768px) 80vw, 480px">
+
+  <!-- Critical Inline CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans Bengali", Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.5;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: linear-gradient(90deg, #0b8f47, #34a853);
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    .container {
+      max-width: 900px;
+      margin: 1rem auto;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      background: #faf9f7;
+      overflow: hidden;
+    }
+    .product-slogan {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #0b8f47;
+      margin: 0.5rem 0;
+      background: #e6f4e9;
+      padding: 0.5rem;
+      border-radius: 8px;
+    }
+    .product-img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .form-container {
+      background: #fdf6f0;
+    }
+    /* Fallback for icon placeholders until Font Awesome loads */
+    .icon-placeholder {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.125em;
+      font-size: 1.2em;
+    }
+  </style>
+
+  <!-- Schema Markup for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Nokia 3310",
+    "image": [
+      "https://phonerbazar.shop/images/nokia-3310-main-320w.webp",
+      "https://phonerbazar.shop/images/nokia-3310-blue-50w.webp",
+      "https://phonerbazar.shop/images/nokia-3310-grey-50w.webp"
+    ],
+    "description": "Nokia 3310 ফোনটি বাংলাদেশে মাত্র ৳২,৫৯৯-এ কিনুন। দীর্ঘস্থায়ী ব্যাটারি, ক্লাসিক ডিজাইন।",
+    "brand": {
+      "@type": "Brand",
+      "name": "Nokia"
+    },
+    "sku": "nokia-3310",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://phonerbazar.shop/products/nokia-3310.html",
+      "priceCurrency": "BDT",
+      "price": "2599",
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "150"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "হোম",
+        "item": "https://phonerbazar.shop/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "প্রোডাক্ট",
+        "item": "https://phonerbazar.shop/products/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Nokia 3310",
+        "item": "https://phonerbazar.shop/products/nokia-3310.html"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="canonical" href="https://phonerbazar.shop/products/nokia-3310.html">
+  <link rel="manifest" href="/manifest.json">
+  <title>Nokia 3310 - PhonerBazar</title>
+</head>
+
+<body>
+  <header>
+    <h1>বাংলাদেশে সেরা দামে<br>Nokia 3310</h1>
+  </header>
+
+  <div class="container">
+    <div class="product-slogan">
+      ✨ ক্লাসিক ডিজাইন, দীর্ঘস্থায়ী ব্যাটারি ✨
+      <div class="offer-banner" role="alert" aria-live="polite">
+        🎉 আজকের জন্য <b>স্পেশাল অফার</b> 🎉
+        <div id="countdown" aria-live="polite">সময় বাকি: ...</div>
+      </div>
+    </div>
+
+    <!-- Main Image (Optimized) -->
+    <picture>
+      <source media="(max-width: 480px)" srcset="/images/nokia-3310-main-320w.webp 320w" type="image/webp">
+      <source media="(max-width: 768px)" srcset="/images/nokia-3310-main-480w.webp 480w" type="image/webp">
+      <source media="(min-width: 769px)" srcset="/images/nokia-3310-main-768w.webp 768w" type="image/webp">
+      <img src="/images/nokia-3310-main-480w.jpg" alt="Nokia 3310 ফোন" class="product-img" width="480" height="480" loading="eager" fetchpriority="high" decoding="async" sizes="(max-width: 480px) 100vw, (max-width: 768px) 80vw, 480px" aria-describedby="product-description">
+    </picture>
+    <p id="product-description" class="visually-hidden">Nokia 3310 ফোনটির একটি ক্লাসিক ডিজাইন সহ চিত্র।</p>
+
+    <div class="price-container">
+      <div class="product-price" role="alert">🎉 🔥 অফার মূল্য : ৳২,৫৯৯ 🔥 🎉 <span class="old-price">৳৪,২০০</span></div>
+    </div>
+    <a href="#order-form" class="order-btn" aria-label="অর্ডার ফর্মে যাওয়া"><b>🛒 অর্ডার করুন</b></a>
+
+    <section class="features">
+      <h2>📌 ফিচার</h2>
+      <ul>
+        <li><b>✔️ ১ বছরের ওয়ারেন্টি</b></li>
+        <li><b>✔️ Dual SIM সাপোর্টেড</b></li>
+        <li><b>✔️ ১ চার্জে চলবে ২-৩ দিন</b></li>
+        <li><b>✔️ FM Radio, Bluetooth & LED Flash সাপোর্ট</b></li>
+        <li><b>✔️ MicroSD কার্ড সাপোর্ট</b></li>
+      </ul>
+    </section>
+
+    <div class="form-container" id="order-section">
+      <div class="form-header" role="heading" aria-level="2">অর্ডার ফর্ম</div>
+      <form id="order-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+        <input type="hidden" name="access_key" value="217e4dd0-d417-4429-bed2-933c54af4605">
+
+        <!-- Name Field -->
+        <div class="form-group">
+          <label for="name">আপনার নাম:</label>
+          <input type="text" name="name" id="name" required autocomplete="name" aria-describedby="name-error" aria-invalid="false" placeholder="আপনার নাম লিখুন">
+        </div>
+
+        <!-- Phone Field -->
+        <div class="form-group">
+          <label for="phone">মোবাইল নাম্বার:</label>
+          <input type="tel" name="phone" id="phone" required inputmode="numeric" pattern="(01[3-9][0-9]{8}|8801[3-9][0-9]{8})" aria-describedby="phone-error" aria-invalid="false" placeholder="০১XXXXXXXXX">
+        </div>
+
+        <!-- Address Field -->
+        <div class="form-group">
+          <label for="address">আপনার ঠিকানা:</label>
+          <input type="text" name="address" id="address" required autocomplete="street-address" aria-describedby="address-error" aria-invalid="false" placeholder="আপনার সম্পূর্ণ ঠিকানা লিখুন">
+        </div>
+
+        <h3>ফোনের কালার এবং পরিমাণ নির্বাচন করুন</h3>
+        <div role="radiogroup" aria-label="পণ্য নির্বাচন" aria-describedby="product-selection-help">
+          <p id="product-selection-help" class="visually-hidden">নিচে থেকে একটি পণ্য নির্বাচন করুন এবং পরিমাণ সেট করুন।</p>
+
+          <!-- Blue Variant -->
+          <div class="product selected" id="product-blue" role="radio" aria-checked="true" tabindex="0" data-color="Blue" data-price="2599" data-delivery-dhaka="80" data-delivery-outside="130">
+            <div class="product-left">
+              <input type="radio" name="product" id="radio-blue" value="Blue" checked aria-labelledby="label-blue" aria-hidden="true" tabindex="-1">
+              <img src="/images/nokia-3310-blue-50w.webp" alt="Nokia 3310 নীল ভেরিয়েন্ট" width="50" height="50" loading="lazy" decoding="async" class="product-img-small">
+              <span id="label-blue">Blue Variant (নীল) - ৳২,৫৯৯</span>
+            </div>
+            <div class="quantity" id="qty-blue-box" aria-live="polite">
+              <button type="button" aria-label="কমান" id="btn-minus-blue" class="btn-minus" tabindex="0">-</button>
+              <input type="text" id="qty-blue" class="qty" value="1" readonly aria-live="polite">
+              <button type="button" aria-label="বাড়ান" id="btn-plus-blue" class="btn-plus" tabindex="0">+</button>
+            </div>
+          </div>
+
+          <!-- Grey Variant -->
+          <div class="product" id="product-grey" role="radio" aria-checked="false" tabindex="0" data-color="Grey" data-price="2599" data-delivery-dhaka="80" data-delivery-outside="130">
+            <div class="product-left">
+              <input type="radio" name="product" id="radio-grey" value="Grey" aria-labelledby="label-grey" aria-hidden="true" tabindex="-1">
+              <img src="/images/nokia-3310-grey-50w.webp" alt="Nokia 3310 গ্রে ভেরিয়েন্ট" width="50" height="50" loading="lazy" decoding="async" class="product-img-small">
+              <span id="label-grey">Grey Variant (গ্রে) - ৳২,৫৯৯</span>
+            </div>
+            <div class="quantity hidden" id="qty-grey-box">
+              <button type="button" aria-label="কমান" id="btn-minus-grey" class="btn-minus" tabindex="0">-</button>
+              <input type="text" id="qty-grey" class="qty" value="1" readonly aria-live="polite">
+              <button type="button" aria-label="বাড়ান" id="btn-plus-grey" class="btn-plus" tabindex="0">+</button>
+            </div>
+          </div>
+        </div>
+
+        <h3>আপনার অর্ডার</h3>
+        <div class="summary" aria-live="polite">
+          <div class="summary-item">
+            <span>মোবাইলের দাম :</span>
+            <strong id="subtotal" aria-live="polite">৳২,৫৯৯</strong>
+          </div>
+          <div class="summary-item">
+            <span>ডেলিভারি :</span>
+            <div id="shipping-options">
+              <label><input type="radio" name="shipping" value="80" aria-label="ঢাকার ভিতরে ডেলিভারি"> ঢাকার ভিতরে: ৳৮০</label><br>
+              <label><input type="radio" name="shipping" value="130" checked aria-label="ঢাকার বাইরে ডেলিভারি"> ঢাকার বাইরে: ৳১৩০</label>
+            </div>
+          </div>
+          <div class="summary-item">
+            <span>সর্বমোট বিল :</span>
+            <strong id="total" aria-live="polite">৳২,৭২৯</strong>
+          </div>
+        </div>
+
+        <div class="payment-box" role="alert"><b>ক্যাশ অন ডেলিভারি: পণ্য হাতে পেয়ে পেমেন্ট</b></div>
+
+        <input type="hidden" name="selected_product" id="hiddenProduct" value="Nokia 3310 (Blue)">
+        <input type="hidden" name="selected_quantity" id="hiddenQuantity" value="1">
+        <input type="hidden" name="subtotal_price" id="hiddenSubtotal" value="2599">
+        <input type="hidden" name="total_price" id="hiddenTotal" value="2729">
+
+        <button type="submit" class="submit-btn" id="submit-btn" aria-label="অর্ডার নিশ্চিত করুন">
+          অর্ডার নিশ্চিত করুন <span class="spinner" style="display:none;">⏳</span>
+        </button>
+      </form>
+    </div>
+
+    <!-- Delivery & Details Accordion -->
+    <div class="accordion">
+      <input type="checkbox" id="ac-delivery" checked>
+      <label for="ac-delivery">
+        🚚 ডেলিভারি তথ্য
+        <span class="icon-placeholder"></span>
+      </label>
+      <div class="content">
+        <p>✅ <b>ক্যাশ অন ডেলিভারি</b></p>
+        <p>✅ <b>১-২ দিনে ডেলিভারি</b></p>
+        <p>✅ <b>ঢাকার ভিতরে: ৳৮০, ঢাকার বাইরে: ৳১৩০</b></p>
+      </div>
+
+      <input type="checkbox" id="ac-details">
+      <label for="ac-details">
+        📱 ফোনটির বিস্তারিত
+        <span class="icon-placeholder"></span>
+      </label>
+      <div class="content">
+        <p><b>Brand:</b> Nokia</p>
+        <p><b>Model:</b> 3310 (2017)</p>
+        <p><b>SIM:</b> Dual SIM (Micro-SIM, dual stand-by)</p>
+        <p><b>Display:</b> 2.4" TFT</p>
+        <p><b>Memory:</b> 16 MB internal storage, microSD up to 32 GB</p>
+        <p><b>Camera:</b> 2 MP rear camera with LED flash</p>
+        <p><b>Battery:</b> 1200 mAh (Removable Li-Ion)</p>
+        <p><b>FM Radio:</b> Yes</p>
+        <p><b>Flash:</b> LED flash</p>
+        <p><b>Bluetooth:</b> Yes, v3.0</p>
+        <p><b>Made By:</b> Vietnam</p>
+      </div>
+    </div>
+
+    <!-- Reviews -->
+    <section class="reviews">
+      <h2>গ্রাহক রিভিউ</h2>
+      <div class="review" role="region" aria-label="গ্রাহক রিভিউ">
+        <p><strong>মো. রহিম</strong>: "অসাধারণ ফোন, ব্যাটারি লাইফ ভালো ২/৩ দিন চলে"</p>
+        <p><strong>Fatima</strong>: "ক্লাসিক ডিজাইন, খুব পছন্দ হয়েছে।"</p>
+      </div>
+
+      <!-- Review Image Slider -->
+      <div class="review-slider" role="region" aria-label="রিভিউ স্লাইডার">
+        <div class="slides">
+          <img data-src="/images/review1.webp" alt="গ্রাহক রিভিউ স্ক্রিনশট ১" loading="lazy" decoding="async">
+          <img data-src="/images/review-nokia-3310-blue-review.webp" alt="গ্রাহক রিভিউ প্রোডাক্ট ফটো (নীল)" loading="lazy" decoding="async">
+          <img data-src="/images/review.webp" alt="গ্রাহক রিভিউ স্ক্রিনশট ২" loading="lazy" decoding="async">
+          <img data-src="/images/review-nokia-3310-grey-review.webp" alt="গ্রাহক রিভিউ প্রোডাক্ট ফটো (গ্রে)" loading="lazy" decoding="async">
+        </div>
+        <button class="prev" aria-label="পূর্ববর্তী স্লাইড">&#10094;</button>
+        <button class="next" aria-label="পরবর্তী স্লাইড">&#10095;</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <h2>নিচের প্রশ্নের উপর চাপ দিলে উত্তর পেয়ে যাবেন</h2>
+    <div class="faq">
+      <details>
+        <summary>এটা কি অরিজিনাল?</summary>
+        <p>হ্যাঁ, এটা অরিজিনাল মেইড ইন ভিয়েতনামের গ্লোবাল ভার্সন ফোন।</p>
+      </details>
+      <details>
+        <summary>ব্যাটারি এবং সিম?</summary>
+        <p>১২০০ mAh ব্যাটারি শুধু কথা বললে ৩/৪ দিন চার্জিং ব্যাকআপ দিবে এবং ২টি (সিম) ব্যবহার করা যাবে।</p>
+      </details>
+      <details>
+        <summary>অর্ডার দিলে কবে পাওয়া যাবে?</summary>
+        <p>২/৩ দিনের মধ্যেই পেয়ে যাবেন, ইনশাআল্লাহ।</p>
+      </details>
+      <details>
+        <summary>অগ্রিম টাকা দেওয়া লাগবে?</summary>
+        <p>জ্বী না স্যার, ১ টাকাও অগ্রিম দিতে হবে না। আপনার প্রোডাক্ট হাতে পাওয়ার পর দেখে তারপর ডেলিভারি ম্যানকে টাকা পরিশোধ করবেন।</p>
+      </details>
+    </div>
+    <a href="#order-form" class="order-btn" aria-label="অর্ডার ফর্মে যাওয়া"><b>🛒 অর্ডার করুন</b></a>
+  </section>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" class="back-to-top" aria-label="পেজের উপরে যাওয়া">↑</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <img src="/images/phonerbazar-logo.webp" alt="PhonerBazar লোগো" class="footer-logo" loading="lazy" width="180" height="40" style="max-width:100%; height:auto;">
+      <p class="footer-description">
+        <b>PhonerBazar</b> একটি বিশ্বস্ত ই-কমার্স প্ল্যাটফর্ম। আমরা সাশ্রয়ী দামে উচ্চমানের পণ্য সরবরাহে প্রতিশ্রুতিবদ্ধ। আমাদের সঙ্গে থাকুন, উপভোগ করুন স্মার্ট ও নির্ভরযোগ্য অনলাইন শপিং।
+      </p>
+      <a href="tel:01601654316" class="footer-phone-link" aria-label="ফোন দিয়ে যোগাযোগ করুন">
+        <span class="icon-placeholder"></span> যোগাযোগ করুন
+      </a>
+      <a href="https://wa.me/8801601654316?text=আমি%20Nokia%203310%20ফোনটি%20কিনতে%20চাই" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="WhatsApp দিয়ে অর্ডার করুন">
+        <span class="icon-placeholder"></span> WhatsApp
+      </a>
+      <ul class="footer-links">
+        <li><a href="https://sahitech.github.io/privacy-policy/" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="প্রাইভেসি পলিসি পড়ুন">
+          <span class="icon-placeholder"></span> প্রাইভেসি পলিসি</a></li>
+        <li><a href="https://sahitech.github.io/return-policy/" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="রিটার্ন পলিসি পড়ুন">
+          <span class="icon-placeholder"></span> হ্যাপি রিটার্ন ও রিফান্ড পলিসি</a></li>
+        <li><a href="https://sahitech.github.io/Contact-us/" class="footer-link" target="_blank" rel="noopener noreferrer" aria-label="যোগাযোগ ফর্ম পড়ুন">
+          <span class="icon-placeholder"></span> যোগাযোগ ও অভিযোগ ফর্ম</a></li>
+      </ul>
+      <div class="footer-bottom">
+        © 2025 <a href="https://phonerbazar.shop/" target="_blank" rel="noopener noreferrer" aria-label="PhonerBazar ওয়েবসাইট">PhonerBazar.shop</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Noscript for Facebook Pixel -->
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2040714466673633&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <script defer src="../script.js"></script>
+</body>
+</html>
